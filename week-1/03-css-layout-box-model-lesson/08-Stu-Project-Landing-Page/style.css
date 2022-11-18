@@ -7,9 +7,8 @@ html,
 body {
     box-sizing: border-box;
     background-color: #414159;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
     text-align: center;
-    line-height: 2rem;
     color: #fff;
 }
 
@@ -19,9 +18,10 @@ img {
 }
 
 h1 {
+    font-family: 'Roboto', sans-serif;
     font-size: 60px;
     letter-spacing: .1rem;
-    line-height: 2rem;
+    /* line-height: 4rem; */
 }
 
 h2 {
@@ -29,22 +29,80 @@ h2 {
 }
 
 h3 {
-    line-height: 2.5rem;
+    /* line-height: 2.5rem; */
     padding-top: .5rem;
 }
 
+h4 {
+    font-size: 12px;
+}
 
+span {
+    letter-spacing: .3rem;
+}
+
+form {
+    background-color: #363B44BF;
+    padding: 0 0 0.5rem;
+    width: 70vw;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    border-radius: 1rem;
+}
+  
+fieldset {
+    border: none;
+    width: 100%;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+  
+fieldset:last-of-type {
+    border-bottom: none;
+}
+  
+label {
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin: 1rem;
+}
+  
+input {
+    font-size: 16px;
+    padding-left: 1rem;
+    width: 350px;
+}
+  
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+  
+input, textarea {
+    background-color: #61576B;
+    border: 1px solid #61576B;
+    border-radius: .5rem;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    height: 2.4rem;
+}
+  
 
 .header {
     background-color: #333;
     text-align: center;
-    padding: 2rem;
-    padding-bottom: 3rem;
-    height: 6rem;
+    padding: 1rem;
+    height: auto;
 }
+
 .container {
-    margin: 0 auto;
-    padding: 2rem 3rem;
+    margin: 1rem;
+    border-radius: 1rem;
     border: 1px solid green;
 }
 
@@ -53,18 +111,13 @@ h3 {
     height: 100vh;
 }
 
-input,
-textarea {
-
-}
-
 .footer {
     background-color: #333;
     height: 8rem;
 }
 
 .footer p {
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 
