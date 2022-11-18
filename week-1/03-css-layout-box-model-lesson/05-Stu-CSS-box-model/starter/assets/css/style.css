@@ -6,14 +6,18 @@ section {
   border: 15px solid black;
 }
 
-/* Is there a better way to do this? */
+/* Is there a better way to do this? 
+
+YES! follow the readme - it literally said using:
+padding, border and margin ONLY */
+
 img {
   width: 200px;
   height: 200px;
   background-color: lightblue;
   padding: 1.2rem;
   border: 8px solid blue;
-  /* set relative to container */
+  /* set relative to container - not required */
   position: relative;
   /* margin corrects gaps */
   margin-top: .2rem;
@@ -24,3 +28,18 @@ img {
   left: .9rem;
 }
 
+
+/* SOLUTiON !! */
+
+img {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+
+  /* Margin property */
+  margin: 20px;
+  /* Padding property */
+  padding: 20px;
+  /* Border property */
+  border: 9px solid darkblue;
+}

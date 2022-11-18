@@ -35,29 +35,25 @@ header {
   border: 15px solid black;
 }
 
-.container absolute-contain {
-  width: 600px;
-  height: 600px;
-  margin: 20px auto;
-  border: 15px solid black;
+.absolute-container {
+  position: relative;
 
 }
 
 #relative-box-2 {
-  /* does nothing with top or LRB */
   position: relative;
+  /* can either center it */
   /* margin: auto; */
-  /* or */
+  /* or add correct px to left */
   left: 200px;
 }
 
 #absolute-box-2 {
-  /* this doesn't work? */
+  /* this doesn't work? 
+  yet it was the tutors solution?? */
   position: absolute;
   /* z-index: 2; */
   top: 0;
-  /* right: 0; */
   right: -300px;
-  /* right: -1px; */
 }
 

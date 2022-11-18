@@ -9,4 +9,14 @@ img {
   width: 200px;
   height: 200px;
   background-color: lightblue;
+  /* add margin */
+  /* margin: 2rem; */
+  /*  lessons here in using REM vs PX - changed everything entirely?? */
+  margin: 20px;
+  /* add padding */
+  padding: 1.5rem;
+  /* add border */
+  border: 5px solid blue;
 }
+
+
