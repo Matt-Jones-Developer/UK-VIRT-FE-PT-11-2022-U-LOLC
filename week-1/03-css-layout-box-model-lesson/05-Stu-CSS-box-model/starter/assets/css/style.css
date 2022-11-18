@@ -1,3 +1,4 @@
+
 section {
   width: 600px;
   height: 600px;
@@ -5,8 +6,21 @@ section {
   border: 15px solid black;
 }
 
+/* Is there a better way to do this? */
 img {
   width: 200px;
   height: 200px;
   background-color: lightblue;
+  padding: 1.2rem;
+  border: 8px solid blue;
+  /* set relative to container */
+  position: relative;
+  /* margin corrects gaps */
+  margin-top: .2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  /* fine tune top/left */
+  top: 1.4rem;
+  left: .9rem;
 }
+

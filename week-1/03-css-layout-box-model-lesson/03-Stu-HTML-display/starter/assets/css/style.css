@@ -13,11 +13,16 @@ ul {
 }
 
 li {
+  /* make list inline */
+  display: inline;
   list-style-type: none;
   font-size: 40px;
 }
 
 img {
+  /* make imgs stack */
+  display: block;
+  /* centre them */
   margin: 0 auto;
 }
 
@@ -34,5 +39,25 @@ img {
 }
 
 #image-3 {
-  display: none;
+  display: visible;
 }
+
+/* another way (but less DRY) */
+
+/* we don't need to attack item id's
+here since we can add the inline to just li */
+
+/* #item-1, 
+#item-2,
+#item-3 {
+  display: inline;
+} */
+
+/* ul {
+  display: inline;
+} */
+/* 
+section img {
+  display: block;
+} */
+
